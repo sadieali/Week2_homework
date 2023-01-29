@@ -1,10 +1,11 @@
-supplied_pin = input('Enter your pin: ')
+correct_pin = 4321
 
 login = [1, 2, 3]
 # login is a list shown by square brackets, is mutable which allows pop() method
 
 while login:
-    if supplied_pin == 4321:
+    supplied_pin = input('Enter your pin: ')
+    if supplied_pin == correct_pin:
         print('Successful login')
     else:
         print('Failed login')
