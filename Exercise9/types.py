@@ -16,6 +16,3 @@ print(fullname)
 # 'first' and 'last' are keys, the variables name and lastname are values
 namelist = {'first': name, 'last': lastname}
 print(namelist)
-
-
-
